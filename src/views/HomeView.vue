@@ -8,7 +8,7 @@ import VideoPlayer from '@/components/VideoPlayer.vue'
 import { featuredMovie, categories } from '@/data/movies'
 
 const isVideoPlaying = ref(false)
-const videoSrc = ref('/video/Ours.mp4')
+const videoSrc = ref('https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/Ours.mp4')
 
 const handlePlay = () => {
   isVideoPlaying.value = true
