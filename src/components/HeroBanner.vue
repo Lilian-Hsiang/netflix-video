@@ -18,7 +18,7 @@ const emit = defineEmits<{
       muted 
       loop 
       playsinline
-      src="/video/Ours.mp4"
+      src="https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/Ours.mp4"
     >
       <img :src="movie.backdrop" alt="" class="hero-fallback" />
     </video>
