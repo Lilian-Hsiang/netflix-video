@@ -9,7 +9,7 @@ export const useAuthStore = defineStore('auth', () => {
   function login(email: string, _password: string) {
     isAuthenticated.value = true
     userEmail.value = email
-    userName.value = email.split('@')[0]
+    userName.value = email.split('@')[0] ?? ''
   }
 
   function logout() {

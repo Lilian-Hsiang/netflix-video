@@ -322,10 +322,10 @@ export const categories: ContentCategory[] = [
   {
     id: 'my-list',
     title: '我的片單',
-    movies: [allMovies[0], allMovies[3], allMovies[6], allMovies[9], allMovies[14]],
+    movies: [allMovies[0]!, allMovies[3]!, allMovies[6]!, allMovies[9]!, allMovies[14]!],
   },
 ]
 
-export const featuredMovie: Movie = allMovies[0]
+export const featuredMovie: Movie = allMovies[0]!
 
 export default allMovies
