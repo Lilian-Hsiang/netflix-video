@@ -12,6 +12,11 @@ const emit = defineEmits<{
 
 const isHovering = ref(false)
 const videoRef = ref<HTMLVideoElement | null>(null)
+const videoError = ref(false)
+
+const handleVideoError = () => {
+  videoError.value = true
+}
 
 const handleMouseEnter = () => {
   isHovering.value = true
@@ -64,12 +69,14 @@ const handlePlay = () => {
       playsinline
       preload="metadata"
       @loadedmetadata="handleVideoLoaded"
+      @error="handleVideoError"
     />
     <img 
-      v-else
       :src="movie.poster" 
       :alt="movie.title" 
-      loading="lazy" 
+      loading="lazy"
+      class="poster-img"
+      :class="{ hidden: movie.videoSrc && !videoError }"
     />
     <div class="card-overlay">
       <button v-if="movie.videoSrc" class="play-btn" @click.stop="handlePlay" aria-label="播放影片">
@@ -111,6 +118,13 @@ const handlePlay = () => {
   height: 300px;
   object-fit: cover;
   display: block;
+}
+
+.movie-card img.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .preview-video {

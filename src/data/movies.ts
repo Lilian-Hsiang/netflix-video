@@ -276,7 +276,7 @@ const ringMovie: Movie = {
   rating: 'G',
   duration: '10m',
   genre: ['Documentary'],
-  videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/%E5%B0%8D%E6%88%92%E8%A3%BD%E4%BD%9C%E7%B4%80%E9%8C%84.mp4',
+  videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/default.mp4',
 }
 
 const elephantMovie: Movie = {

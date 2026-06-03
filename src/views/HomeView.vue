@@ -50,7 +50,7 @@ const handleCloseVideo = () => {
 
 .content-rows {
   position: relative;
-  margin-top: -80px;
+  margin-top: -40px;
   z-index: 5;
 }
 </style>

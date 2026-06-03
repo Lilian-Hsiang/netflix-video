@@ -20,8 +20,8 @@ const emit = defineEmits<{
       playsinline
       src="https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/Ours.mp4"
     >
-      <img :src="movie.backdrop" alt="" class="hero-fallback" />
     </video>
+    <img :src="movie.backdrop" alt="" class="hero-fallback" />
     <div class="hero-overlay" />
     <div class="hero-content">
       <h1 class="hero-title">{{ movie.title }}</h1>
@@ -56,8 +56,6 @@ const emit = defineEmits<{
   width: 100%;
   height: 100vh;
   min-height: 600px;
-  display: flex;
-  align-items: flex-end;
   overflow: hidden;
   background-color: #000;
 }
@@ -91,9 +89,10 @@ const emit = defineEmits<{
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  bottom: 8%;
+  left: 4%;
   z-index: 2;
-  padding: 0 4% 8%;
   max-width: 600px;
 }
 
