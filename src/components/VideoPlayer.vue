@@ -24,7 +24,14 @@ const handleBackdropClick = (e: MouseEvent) => {
   <div class="video-player-overlay" @click="handleBackdropClick">
     <div class="video-player-container">
       <button class="close-button" @click="handleClose">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
           <line x1="18" y1="6" x2="6" y2="18" />
           <line x1="6" y1="6" x2="18" y2="18" />
         </svg>

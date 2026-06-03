@@ -53,7 +53,8 @@ const allMovies: Movie[] = [
     rating: 'PG-13',
     duration: '2h 15m',
     genre: ['Romance', 'Drama'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/uvvw63A-c2sMavHRp4EzY3341HTgpYrrEnIiTAqlmFo.MP4',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/uvvw63A-c2sMavHRp4EzY3341HTgpYrrEnIiTAqlmFo.MP4',
   },
   {
     id: 2,
@@ -65,7 +66,8 @@ const allMovies: Movie[] = [
     rating: 'R',
     duration: '1h 58m',
     genre: ['Action', 'Thriller'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/F0bSiGVJ2zRJWZojbO_VfHEzjUwdSwWVq37jT2IIDug.MP4',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/F0bSiGVJ2zRJWZojbO_VfHEzjUwdSwWVq37jT2IIDug.MP4',
   },
   {
     id: 3,
@@ -78,7 +80,8 @@ const allMovies: Movie[] = [
     rating: 'PG',
     duration: '1h 42m',
     genre: ['Drama', 'Fantasy'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/C58C3A20-0C51-444A-A407-96D861E292F8.MOV',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/C58C3A20-0C51-444A-A407-96D861E292F8.MOV',
   },
   {
     id: 4,
@@ -91,7 +94,8 @@ const allMovies: Movie[] = [
     rating: 'R',
     duration: '2h 05m',
     genre: ['Sci-Fi', 'Noir'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/9F3FB7A8-79CB-4FE8-9847-FBBBB3253F4A.MP4',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/9F3FB7A8-79CB-4FE8-9847-FBBBB3253F4A.MP4',
   },
   {
     id: 5,
@@ -104,7 +108,8 @@ const allMovies: Movie[] = [
     rating: 'PG-13',
     duration: '1h 50m',
     genre: ['Adventure', 'Drama'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/6D8B9F28-5B5F-4022-BE31-A54369D7FD6F.MP4',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/6D8B9F28-5B5F-4022-BE31-A54369D7FD6F.MP4',
   },
   {
     id: 6,
@@ -117,7 +122,8 @@ const allMovies: Movie[] = [
     rating: 'PG',
     duration: '1h 35m',
     genre: ['Comedy', 'Drama'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/52D0A46A-56AD-4887-8B0E-474861080172.MP4',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/52D0A46A-56AD-4887-8B0E-474861080172.MP4',
   },
   {
     id: 7,
@@ -130,7 +136,8 @@ const allMovies: Movie[] = [
     rating: 'PG-13',
     duration: '2h 10m',
     genre: ['Thriller', 'Sci-Fi'],
-    videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/3D8EAD15-1CDB-4684-B1CF-D6B885F3B2EA.MOV',
+    videoSrc:
+      'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/3D8EAD15-1CDB-4684-B1CF-D6B885F3B2EA.MOV',
   },
   {
     id: 8,
@@ -290,7 +297,8 @@ const elephantMovie: Movie = {
   rating: 'PG-13',
   duration: '2h 15m',
   genre: ['Romance', 'Drama'],
-  videoSrc: 'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/uvvw63A-c2sMavHRp4EzY3341HTgpYrrEnIiTAqlmFo.MP4',
+  videoSrc:
+    'https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/uvvw63A-c2sMavHRp4EzY3341HTgpYrrEnIiTAqlmFo.MP4',
 }
 
 export const categories: ContentCategory[] = [

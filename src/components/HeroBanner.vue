@@ -12,15 +12,14 @@ const emit = defineEmits<{
 
 <template>
   <section class="hero">
-    <video 
+    <video
       class="hero-video"
-      autoplay 
-      muted 
-      loop 
+      autoplay
+      muted
+      loop
       playsinline
       src="https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/Ours.mp4"
-    >
-    </video>
+    ></video>
     <img :src="movie.backdrop" alt="" class="hero-fallback" />
     <div class="hero-overlay" />
     <div class="hero-content">
@@ -39,8 +38,17 @@ const emit = defineEmits<{
           播放
         </button>
         <button class="btn btn-info">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" />
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 16v-4" />
+            <path d="M12 8h.01" />
           </svg>
           更多資訊
         </button>

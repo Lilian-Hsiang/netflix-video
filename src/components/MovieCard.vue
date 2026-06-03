@@ -54,11 +54,7 @@ const handlePlay = () => {
 </script>
 
 <template>
-  <div 
-    class="movie-card" 
-    @mouseenter="handleMouseEnter"
-    @mouseleave="handleMouseLeave"
-  >
+  <div class="movie-card" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
     <video
       v-if="movie.videoSrc"
       ref="videoRef"
@@ -71,9 +67,9 @@ const handlePlay = () => {
       @loadedmetadata="handleVideoLoaded"
       @error="handleVideoError"
     />
-    <img 
-      :src="movie.poster" 
-      :alt="movie.title" 
+    <img
+      :src="movie.poster"
+      :alt="movie.title"
       loading="lazy"
       class="poster-img"
       :class="{ hidden: movie.videoSrc && !videoError }"
@@ -104,7 +100,9 @@ const handlePlay = () => {
   border-radius: var(--card-border-radius);
   overflow: hidden;
   cursor: pointer;
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  transition:
+    transform var(--transition-normal),
+    box-shadow var(--transition-normal);
 }
 
 .movie-card:hover {
@@ -167,7 +165,9 @@ const handlePlay = () => {
   justify-content: center;
   margin-bottom: 8px;
   cursor: pointer;
-  transition: transform 0.2s, background 0.2s;
+  transition:
+    transform 0.2s,
+    background 0.2s;
 }
 
 .play-btn:hover {
