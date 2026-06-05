@@ -18,6 +18,9 @@ const emit = defineEmits<{
       muted
       loop
       playsinline
+      webkit-playsinline
+      x5-playsinline
+      preload="auto"
       src="https://github.com/Lilian-Hsiang/netflix-video/releases/download/v1.0/Ours.mp4"
     ></video>
     <img :src="movie.backdrop" alt="" class="hero-fallback" />

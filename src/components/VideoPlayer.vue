@@ -36,7 +36,15 @@ const handleBackdropClick = (e: MouseEvent) => {
           <line x1="6" y1="6" x2="18" y2="18" />
         </svg>
       </button>
-      <video :src="videoSrc" controls autoplay muted class="video-element">
+      <video 
+        :src="videoSrc" 
+        controls 
+        playsinline
+        webkit-playsinline
+        x5-playsinline
+        preload="metadata"
+        class="video-element"
+      >
         您的瀏覽器不支援影片播放。
       </video>
     </div>
